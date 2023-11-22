@@ -5,6 +5,14 @@ https://github.com/darbelaezm/POO-Seguimiento6/blob/main/friends/Contacts.java
 ```java
 package friends;
 
+public class Friends {
+    public static void main(String[] args) {
+       Contacts form = new Contacts();
+        form.setVisible(true);
+    }
+}
+
+package friends;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
