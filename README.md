@@ -142,41 +142,26 @@ public class Contacts extends javax.swing.JFrame {
 			long number;
 			int index;
 
-			// Using file pointer creating the file.
 			File file = new File("C:\\Users\\Daniela Arbelaez\\OneDrive\\Documentos\\NetBeansProjects\\AddFriend\\friendsContact.txt");
 
 			if (!file.exists()) {
-
-				// Create a new file if not exists.
 				file.createNewFile();
 			}
 
-			// Opening file in reading and write mode.
 
 			RandomAccessFile raf = new RandomAccessFile(file, "rw");
 			boolean found = false;
 
-			// Traversing the file
-			// getFilePointer() give the current offset
-			// value from start of the file.
 			while (raf.getFilePointer() < raf.length()) {
 
-				// reading line from the file.
 				nameNumberString = raf.readLine();
 
-				// splitting the string to get name and
-				// number
 				String[] lineSplit = nameNumberString.split("!");
 
-				// separating name and number.
 				name = lineSplit[0];
 				number = Long.parseLong(lineSplit[1]);
                                 
                                 if (name.equals(newName)){
-
-				// Print the contact data
-				//System.out.println("Contact's name: " + name);
-			        //System.out.println("Contact's number: " + number);
                                     
                                 txtname.setText(String.valueOf(name));
                                 txtnumber.setText(String.valueOf(number));
