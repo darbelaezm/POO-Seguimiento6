@@ -481,6 +481,8 @@ public class Contacts extends javax.swing.JFrame {
 ![image](https://github.com/darbelaezm/POO-Seguimiento6/assets/143208551/2000a34b-bb5a-45e5-91a7-532738ca1637)
 
 ## Diagrama de Clases
+![image](https://github.com/darbelaezm/POO-Seguimiento6/assets/143208551/22b8ead8-7182-4691-acfe-9f05204a52f9)
+
 ## Diagrama de Casos de Uso
 ![image](https://github.com/darbelaezm/POO-Seguimiento6/assets/143208551/eefee590-c5a2-4328-a9ff-fb7c5e46fea5)
 
